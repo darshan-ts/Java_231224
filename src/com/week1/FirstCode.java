@@ -9,6 +9,10 @@ public class FirstCode {
 		System.out.println("Welcome to learn Java programming");
 		
 		System.out.println("Welcome to learn Selenium");
+		
+		System.out.println("Welcome to learn API");
+		
+		System.out.println("Welcome to learn Appium");
 	}
 	
 }

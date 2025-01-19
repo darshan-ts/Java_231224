@@ -83,7 +83,7 @@ System.out.println("Actual string ends with lib?: "+act.endsWith("lib"));//false
 	 * How to reverse any string
 	 * 
 	 */
-	
+	 
 	}
 
 }

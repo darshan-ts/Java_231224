@@ -17,9 +17,8 @@ public class EmployeeData {
 	//method/function
 	public void display()
 	{
-		System.out.println(empid);
-		System.out.println(empname);
-		
+		System.out.println("Employee id is: "+empid);
+		System.out.println("Employee name is: "+empname);
 		
 	}
 

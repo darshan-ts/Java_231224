@@ -12,7 +12,7 @@ public class MainfunctionOverloading {
 	public static void main(int[] args) {
 
 		System.out.println("main() with int arguments");
-		for(int i:args)
+		for(int i:args) //args is a current method array name and this needs to be passed as array name
 		{
 			System.out.println(i);
 		}

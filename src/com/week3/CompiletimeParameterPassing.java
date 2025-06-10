@@ -22,7 +22,7 @@ public class CompiletimeParameterPassing
 		System.out.println("Multiplication is: "+(a*b));
 	}
 	/*
-	 * When we want to return any data/result from the method then we use return keywrod
+	 * When we want to return any data/result from the method then we use return keyword
 	 * Rule
 	 * =========
 	 * 1. we use return keyword and return statement is last statement for method
@@ -57,7 +57,7 @@ public class CompiletimeParameterPassing
 		 * When we pass real data(arguments) to the method while 
 		 * calling that method is called compile time parameter passing
 		 * 
-		 * Argument: Passing read data to method
+		 * Argument: Passing real data to method
 		 * Parameter: passing variables to method which hold some data
 		 */
 		c1.sub(90,100);
@@ -73,6 +73,9 @@ public class CompiletimeParameterPassing
 		
 		c1.sub(89,78);
 		c1.sub(90,56);
+		
+		c1.sub(373, 22323);
+		c1.mul(3434, 43634);
 		
 
 	}

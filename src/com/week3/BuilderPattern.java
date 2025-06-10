@@ -27,6 +27,13 @@ public class BuilderPattern {
 		{
 			BuilderPattern b1=new BuilderPattern();
 			b1.startBrowser().launchApp().stopBrowser();
+			/*
+			 * Whenever method is returning current class object, it means we are converting method in the form of object using "this" keyword.
+			 * 	Then only we can write code in chain fashion called as method chaining. 
+			 * This is how Selenium developers built logic under the hood to call one method from another.
+			 * Entire Selenium development is based on the same principle.
+
+			 */
 			
 
 		}

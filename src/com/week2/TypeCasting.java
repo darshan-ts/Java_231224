@@ -22,7 +22,7 @@ public class TypeCasting {
 		//Explicit manual conversion-->casting operator
 		
 		long l1=999999999999L;//8byte
-		int i1=(int)l1;//Type mismatch: cannot convert from long to int
+		int i1= (int) l1;//Type mismatch: cannot convert from long to int
 		System.out.println("long to int conversion: "+i1);
 		
 		int c=122;

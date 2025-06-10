@@ -97,7 +97,7 @@ System.out.println("Actual string ends with lib?: "+act.endsWith("lib"));//false
 		
 
 		/*isBlank():Returns true if the string is empty or contains only white space codepoints,otherwise false.
-		and isEmpty():if lenght is 0
+		and isEmpty():if length is 0
 		*/
 		String s6=" ";
 		System.out.println(s6.length());

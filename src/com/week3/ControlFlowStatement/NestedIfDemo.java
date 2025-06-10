@@ -29,6 +29,7 @@ public class NestedIfDemo {
 		 {
 			 System.out.println("B");
 		 }
+		 sc.close();
 
 	}
 

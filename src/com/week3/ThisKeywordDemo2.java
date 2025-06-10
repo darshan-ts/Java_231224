@@ -8,7 +8,7 @@ public class ThisKeywordDemo2 {
 		{
 			System.out.println("Browser started!");
 			this.launchApplication();
-			//launchApplication();
+			//launchApplication(); // this is same as above- both approach gives same result
 		}
 		
 		public void launchApplication()

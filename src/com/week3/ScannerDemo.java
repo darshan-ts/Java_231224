@@ -19,7 +19,7 @@ public class ScannerDemo {
 		int id=reader.nextInt();
 		System.out.println("Your id is: "+id);
 		
-		reader.close();
+		reader.close(); // JVM doesn't release memory automatically. We have to close Scanner reference manually. Other resoure leak warning comes in.
 
 	}
 

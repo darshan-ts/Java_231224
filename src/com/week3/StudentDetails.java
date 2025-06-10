@@ -24,9 +24,13 @@ public class StudentDetails
 
 	public static void main(String[] args) 
 	{
-		StudentDetails s1=new StudentDetails(101,"Kiran");
+		//creating multiple Student instances
+		StudentDetails s = new StudentDetails();
+		s.display();
+		
+		StudentDetails s1=new StudentDetails(101,"Darshan");
 		s1.display();
-		StudentDetails s2=new StudentDetails(102,"Amit");
+		StudentDetails s2=new StudentDetails(102,"T S");
 		s2.display();
 		StudentDetails s3=new StudentDetails(103,"Reena");
 		s3.display();

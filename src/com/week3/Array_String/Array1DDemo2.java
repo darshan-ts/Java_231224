@@ -6,7 +6,7 @@ public class Array1DDemo2 {
 	{
 		// using new keyword
 		
-				Object empdata[]=new Object[5];
+				Object empdata[]=new Object[5]; //created employee data Object type of array
 				empdata[0]="Sarang";
 				empdata[1]="Pune";
 				empdata[2]=40;
@@ -28,9 +28,9 @@ public class Array1DDemo2 {
 				}
 		System.out.println("********************************");
 				
-				//Using literal
+				//Using literal - we can declare array directly as constant data/information
 				
-			int sid[]= {10,20,30,40,50};
+			int sid[]= {10,20,30,40,50}; // In literal way, we can store elements as Set. We can write Declaration and Initialization in on line. We don't need to maintain index position
 			
 			System.out.println(sid[3]);//40
 			//System.out.println(sid[5]);//ArrayIndexOutOfBoundsException

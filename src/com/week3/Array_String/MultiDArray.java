@@ -17,7 +17,7 @@ public class MultiDArray
 		sid[1][2]=60;
 		
 		System.out.println("Number of Rows: "+sid.length);//2
-		System.out.println("Number of columns: "+sid[0].length);//3
+		System.out.println("Number of columns: "+sid[0].length);//3 - for the column always we have to start with row
 		
 		//single data
 		System.out.println(sid[1][0]);//40

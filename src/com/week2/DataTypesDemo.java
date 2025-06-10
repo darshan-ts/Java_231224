@@ -53,7 +53,7 @@ public class DataTypesDemo {
 				System.out.println("byte data is: "+b3);
 				System.out.println("byte data is: "+b4);
 				
-				
+				System.out.println("*************************");
 				
 				//short 2byte -32768 to 32767
 				
@@ -62,7 +62,8 @@ public class DataTypesDemo {
 				//short s3=50000;//Type mismatch: cannot convert from int to short
 				System.out.println("Short data is: "+s1);
 				System.out.println("Short data is: "+s2);
-
+				
+				System.out.println("*************************");
 				//int 4byte 
 				
 				int i1=50000;
@@ -73,12 +74,16 @@ public class DataTypesDemo {
 				System.out.println("integer data is: "+i1);
 				System.out.println("integer data is: "+i2);
 				
+				System.out.println("*************************");
+				
 				//long 8byte 
 				long l1=9999999999L;
 				long l2=190L;
 				
 				System.out.println("Long data is: "+l1);
 				System.out.println("Long data is: "+l2);
+				
+				System.out.println("*************************");
 				
 				//primitive --->Integral--->Numeric--->floating point
 				//float 4byte   double  8yte (default)

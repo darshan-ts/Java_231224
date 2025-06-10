@@ -19,7 +19,7 @@ public class MethodCalling {
 	public void m3()
 	{
 		System.out.println("This is m3 calling....");
-		//m1();//StackOverflowError
+		//m1();//StackOverflowError - Deadlock situation occurs which is dangerous in coding!
 		
 	}
 	

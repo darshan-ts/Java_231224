@@ -1,5 +1,7 @@
 package com.week1;
 
+import com.week2.MethodDemo;
+
 public class FirstCode {
 	
 	public static void main(String[] args)
@@ -13,6 +15,8 @@ public class FirstCode {
 		System.out.println("Welcome to learn API");
 		
 		System.out.println("Welcome to learn Appium");
+		
+		MethodDemo.show(); //in different class using class name we can call static method
 	}
 	
 }

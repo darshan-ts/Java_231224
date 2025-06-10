@@ -33,7 +33,7 @@ public class Array1DDemo {
 		
 		System.out.println(sid[4]);
 		
-		//get the the data from array
+		//get the data from array
 		System.out.println("*****Iteration Using for loop***********");
 		
 		for(int i=0;i<5;i++)
@@ -42,7 +42,7 @@ public class Array1DDemo {
 		}
 		System.out.println("*************************");
 		
-		for(int i=0;i<sid.length;i++)
+		for(int i=0;i<sid.length;i++) //replacing 5 with sid.length which gives same result and makes code dynamic
 		{
 			System.out.println(sid[i]);
 		}
@@ -75,7 +75,7 @@ public class Array1DDemo {
 		System.out.println("*********************************");
 		
 		String loc[]=new String[3];
-		loc[0]="Nashik";
+		loc[0]="Bengaluru";
 		loc[1]="Mumbai";
 		loc[2]="Pune";
 		

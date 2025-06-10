@@ -4,6 +4,7 @@ public class Assignment1 {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to selenium training!\nWelcome to Java Training!"); //Printing more than 1 statement in a single line
+		// \n is a escape character which will help control to go to next line.
 		//System.out.println("Wel"Welcome to learn Javacome to Java Training!");
 		
 		

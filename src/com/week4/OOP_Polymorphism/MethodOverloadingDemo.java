@@ -81,6 +81,7 @@ public class MethodOverloadingDemo
 		m1.add(89,778.660);
 		
 		MethodOverloadingDemo m2=new MethodOverloadingDemo(67);
+		MethodOverloadingDemo m21=new MethodOverloadingDemo("darshan");
 
 	}
 	

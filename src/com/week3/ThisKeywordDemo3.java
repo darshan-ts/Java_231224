@@ -1,4 +1,4 @@
-package com.week3;
+ package com.week3;
 
 public class ThisKeywordDemo3 {
 	
@@ -23,6 +23,7 @@ public class ThisKeywordDemo3 {
 		public static void main(String[] args) 
 		{
 			ThisKeywordDemo3 t1=new ThisKeywordDemo3();
+			//ThisKeywordDemo3 t1=new ThisKeywordDemo3(102);
 			
 
 		}

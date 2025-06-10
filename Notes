@@ -1,0 +1,135 @@
+
+
+30-12-2024
+=============
+Variables
+=============
+1.Local variable
+======================
+Variable declare within a method called local variable
+
+Scope: within method
+memory allocation: at the time of method execution
+memory deallocated: after execution of method
+
+2.Instance variable
+=========================
+Any variable declare inside class and outside any method/block and without static keyword
+is called instance variable
+
+Scope: Within object
+memory allocation: at the time of object creation
+memory deallocated: after execution of object/destroy any object
+
+for every new object new memory will be created
+
+3.static variable
+=========================
+Any variable declare inside class and outside any method/block and with static keyword
+is called static  variable
+any data common for all the objects, then such data we can declare as static. Unnecessarily we don't create static variable.
+No object required to call static data/method
+
+Scope: Within class
+memory allocation: at the time of class loading
+memory deallocated: after execution of class
+
+for every new object same memory will be shared
+
+static keyword plays important role it is used for memory management
+-------------------------------------------
+static variable
+static method
+
+
+static block
+===================
+It is used to initialize static variable 
+first priority to static block
+
+========================================================
+31-12-2024
+=================
+Type Casting
+=================
+One data type we convert into other data type
+
+1.Primitive to primitive
+----------------------------
+	1.Implicit
+	2.Explicit
+	
+	
+Implicit(Automatic conversion taken care by JVM)
+-----------------------------------------------------
+small size---->large size
+
+byte--->short--->int--->long--->float-->double
+
+Explicit(Manual conversion)here we use casting operator
+-----------------------------------------------------------
+large size--->small size 
+
+============================================
+Super Keyword
+============================
+1.Super keyword can be used to refer immediate parent class instance variable.
+2.Super keyword can be used to invoke immediate parent class method.
+3.Super keyword can be used to call immediate parent class constructor.(super())
+
+final Keyword
+======================================
+final keyword can be apply for variable,method and class
+1.If we apply final keyword to variable then that variable will be consider constant variable
+(value will become fix...no one can update)
+2.If we apply final keyword to method then we cant override that method in other class or child class
+3.If we apply final keyword to class then we can not extend that class into another class.
+===============================================================
+IQ: How we can implement immutable class ,variable or method in java?
+Ans: Using final keyword.
+==============================================================
+
+Data Abstraction
+================
+It is process of hiding implementation details of software from end user.
+
+Abstraction achive using
+------------------------------
+1.Abstarct class
+2.Interface
+
+1.Abstarct class
+===============
+1.In abstract class we can have both abstract method and non abstarct (concreate) Methods.
+2.Abstract method and class we can declare using abstract keyword.
+3.Abstract class can not be instantiated.
+4.Abstract methods must be overriden by class which inherits abstract class.
+5.Using Abstract class partial abstraction is possible.
+
+Interface
+===========
+1.An�interface in java�is a blueprint of a class. 
+2.Interface contains final and static variables.
+3.Interface contains abstract methods.
+4.An abstract method is a method contains definition but not body.
+5.Methods in interface are public by default.
+6.Interface supports the functionality of multiple inheritance.
+7.We can define interface with interface keyword.
+8.A class extends another class, an interface extends another interface
+ but a�class implements an interface.
+9.We can create Object reference for Interface but we cannot instantiate interface.
+10.Inheritance use extends keyword and Interface use implements keyword.
+
+
+
+ 	
+
+
+
+
+
+
+
+
+
+

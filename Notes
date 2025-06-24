@@ -1,3 +1,19 @@
+
+
+//Topics
+---------------
+Locators
+Gestures
+ToggleWifi,mobiledata,airplaneMode
+Interact with Android keyboard
+Lock_unlock/rotate device
+How to get performance data for app
+Reports
+
+
+
+
+
 https://www.simplilearn.com/enable-virtualization-windows-10-article
 
 
@@ -44,7 +60,7 @@ Step4: Install Android Studio
 https://developer.android.com/studio
 
 Step5: Java & Android variable setup
-Andriod Home C:\Users\Ganes\AppData\Local\Android\Sdk
+Andriod Home C:\Users\ABC\AppData\Local\Android\Sdk
 
 %ANDROID_HOME%\platform-tools
 %ANDROID_HOME%\tools
@@ -179,22 +195,3 @@ Note: Steps can differ based on the phone manufacturer!
 -> USB drivers:
 Google: https://developer.android.com/studio/run/win-usb
 OEMs: https://developer.android.com/studio/run/oem-usb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

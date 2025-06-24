@@ -1,6 +1,6 @@
 package com.week4.OOP_Inheritance;
 
-public class Car extends Vehical
+public class Car extends Vehicle
 {
 
 	
@@ -15,9 +15,9 @@ public class Car extends Vehical
 	}
 	
 	
-	public void refule()
+	public void refuel()
 	{
-		System.out.println("Car.....refule()");
+		System.out.println("Car.....refuel()");
 	}
 	
 	public void stop()

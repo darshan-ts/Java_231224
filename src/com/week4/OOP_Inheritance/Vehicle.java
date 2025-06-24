@@ -1,10 +1,10 @@
 package com.week4.OOP_Inheritance;
 
-public class Vehical 
+public class Vehicle 
 {
 
 	public void breakFeature()
 	{
-		System.out.println("Vehical....Break()");
+		System.out.println("Vehicle....Break()");
 	}
 }

@@ -8,7 +8,7 @@ public class TestCar {
 		System.out.println("Child ref and Child Object");
 		BMW b1=new BMW();
 		b1.start();//inherited
-		b1.refule();//inherited
+		b1.refuel();//inherited
 		b1.stop();//inherited
 		b1.autoEngine();//individual
 		b1.breakFeature();
@@ -17,7 +17,7 @@ public class TestCar {
 		
 		Audi a1=new Audi();
 		a1.start();//inherited
-		a1.refule();//inherited
+		a1.refuel();//inherited
 		a1.stop();//inherited
 		a1.autoGear();//individual
 		a1.breakFeature();
@@ -27,11 +27,11 @@ public class TestCar {
 
 		Car c1=new Car();
 		c1.start();//individual
-		c1.refule();//individual
+		c1.refuel();//individual
 		c1.stop();//individual
 		c1.breakFeature();
 		
-		Vehical v1=new Vehical();
+		Vehicle v1=new Vehicle();
 		v1.breakFeature();
 
 		System.out.println("Parent ref and Child Object");
@@ -39,14 +39,14 @@ public class TestCar {
 		Car c2=new BMW();
 		c2.start();//individual
 		
-		c2.refule();//individual
+		c2.refuel();//individual
 		
 		c2.stop();//individual
 		c2.breakFeature();
 		
 		Car c3=new Audi();
 		c3.start();
-		c3.refule();
+		c3.refuel();
 		c3.stop();
 		c3.breakFeature();
 		
